@@ -29,7 +29,7 @@ $msgType = $telegram->getUpdateType();
 
 
 if(strtolower($text) == 'test'){
-    $web_app = (object)['url' => "https://harely-quinn.github.io/web-test/webappcontent.telegram.org/demo.html"];
+    $web_app = (object)['url' => "https://harely-quinn.github.io/web-test/webappcontent.telegram.org/demo"];
 
 	$option = array( 
 		array(
