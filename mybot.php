@@ -33,7 +33,7 @@ $msgType = $telegram->getUpdateType();
 
 
 if(strtolower($text) == '/start'){
-    $web_app = (object)['url' => "https://harely-quinn.github.io/tg-web-html"];
+    $web_app = (object)['url' => "https://webappcontent.telegram.org/demo"];
 
 	$option = array( 
 		array(
