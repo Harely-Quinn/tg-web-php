@@ -28,8 +28,8 @@ $message_id 	   = $telegram->MessageID();
 $msgType = $telegram->getUpdateType();
 
 
-if(strtolower($text) == 'test'){
-    $web_app = (object)['url' => "https://harely-tg-web.herokuapp.com/webAppTest.html"];
+if(strtolower($text) == '/start'){
+    $web_app = (object)['url' => "https://harely-quinn.github.io/tg-web-html"];
 
 	$option = array( 
 		array(
