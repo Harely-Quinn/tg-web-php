@@ -29,11 +29,11 @@ $msgType = $telegram->getUpdateType();
 
 
 if(strtolower($text) == 'test'){
-    $web_app = (object)['url' => "https://harely-quinn.github.io/web-test/webappcontent.telegram.org/demo"];
+    $web_app = (object)['url' => "https://harely-quinn.github.io/web-test/webappcontent.telegram.org/demo.html"];
 
 	$option = array( 
 		array(
-			$telegram->buildWebAppInlineKeyboardButton("♻️ Open the page!", $web_app),
+			$telegram->buildWebAppInlineKeyboardButton("♻️ باز کردن صفحه!", $web_app),
 		)
 	);
 
