@@ -33,7 +33,7 @@ if(strtolower($text) == 'test'){
 
 	$option = array( 
 		array(
-			$telegram->buildWebAppInlineKeyboardButton("♻️ باز کردن صفحه!", $web_app),
+			$telegram->buildWebAppInlineKeyboardButton("♻️ Open the page!", $web_app),
 		)
 	);
 
