@@ -8,8 +8,12 @@
 
 include("Telegram.php");
 
-// Set the bot TOKEN
-$bot_id = "5340197733:AAES4SoJBLfJEpKVRlcx1lgMU3gRl2ZNFs4"; // http://t.me/justANewWebAppBot
+//Make var called BOT_TOKEN
+if (empty(getenv('BOT_TOKEN'))){
+$bot_id = "API_Token";
+} else {
+$bot_id = getenv('BOT_TOKEN');
+}
 
 // Instances the class
 $telegram = new Telegram($bot_id);
